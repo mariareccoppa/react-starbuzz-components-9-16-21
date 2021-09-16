@@ -5,7 +5,7 @@ function MenuItem(props) {
   return (  
   <div>
   <h2>
-    {props.name}, $ {props.price}
+    {props.name}, ${props.price}
     </h2>
     <p>{props.children}</p>
   </div>
